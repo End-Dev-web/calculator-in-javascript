@@ -1,0 +1,2 @@
+# calculator-in-javascript
+In this tutorial I will show you how to make a simple JavaScript calculator. The calculator app we’ll develop in this tutorial is a very simple one. It is more or less in the manner of those calculators found at grocery stores. The layout of the app was crafted with HTML, CSS, and Javascript.  This tutorial assumes that you have a basic knowledge of JavaScript. I’m going to break down each step as best as I can so it should be easy to follow even if you have no prior experience with building applications in the browser.
