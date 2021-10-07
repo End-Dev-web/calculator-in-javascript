@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    background: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    position: relative;
+    width: 350px;
+}
+
+.calculator-screen {
+    min-height: 166px;
+    background: #0c0c14;
+    border-top: 2px solid #fff;
+    padding: 30px;
+    font-size: 46px;
+    color: #fff;
+    text-shadow: 0px 0px 6px 
+                rgba(255, 255, 255, 0.5);
+}
+
+.calculator-screen #display {
+    overflow: hidden;
+    text-align: right;
+}
+
+.calculator-body {
+    background: #0c0c14;
+    padding-left: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 160px 80px 80px;
+}
+
+.grid-body {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 24px;
+    margin: 8px;
+    padding: 25px 10px 10px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background: #fffefc;
+    color: #4e4848;
+    box-shadow: 0px 0px 11px 2px
+                rgba(755, 254, 752, 0.5);
+}
+
+.btn-num {
+    background: #4e4848;
+    text-align: center;
+    border-top: 2px solid #fff;
+}
+
+.btn-c {
+    background: #ff6340;
+    border-top: 2px solid #fff;
+}
+
+.btn-operator {
+    background: #452c6d;
+    border-top: 2px solid #fff;
+}
+
+.btn-equals {
+    background: #40ff69;
+    border-top: 2px solid #fff;
+    width: 145px;
+}
